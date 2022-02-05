@@ -1,0 +1,13 @@
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\bin\Debug\netcoreapp3.1\coreSample1.exe
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\bin\Debug\netcoreapp3.1\coreSample1.deps.json
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\bin\Debug\netcoreapp3.1\coreSample1.runtimeconfig.json
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\bin\Debug\netcoreapp3.1\coreSample1.runtimeconfig.dev.json
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\bin\Debug\netcoreapp3.1\coreSample1.dll
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\bin\Debug\netcoreapp3.1\coreSample1.pdb
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\obj\Debug\netcoreapp3.1\coreSample1.csprojAssemblyReference.cache
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\obj\Debug\netcoreapp3.1\coreSample1.csproj.CoreCompileInputs.cache
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\obj\Debug\netcoreapp3.1\coreSample1.AssemblyInfoInputs.cache
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\obj\Debug\netcoreapp3.1\coreSample1.AssemblyInfo.cs
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\obj\Debug\netcoreapp3.1\coreSample1.dll
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\obj\Debug\netcoreapp3.1\coreSample1.pdb
+D:\code\workedSample\hosting\docker\dockSample1-helloworld\coreSample1\obj\Debug\netcoreapp3.1\coreSample1.genruntimeconfig.cache

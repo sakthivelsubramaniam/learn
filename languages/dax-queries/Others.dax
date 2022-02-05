@@ -1,0 +1,14 @@
+// Product
+Evaluate ALL(Product)
+
+
+// Product Class
+ Evaluate ALL ( Product[Class])
+
+// many columns
+Evaluate All (Product[class], Product[Color]) 
+ 
+ //All Except , can exlclude the column that is not needed 
+ Evaluate AllExcept ( Product, product[ProductKey])
+
+ //

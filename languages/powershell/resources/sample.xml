@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--List of machines-->
+<Machines current="True" manager="Tobias">
+  <!--1. machine details-->
+  <Machine test="578163632">
+    <Name>Server0001</Name>
+    <IP>31.248.95.170</IP>
+    <GUID>51cb0dfb-75ed-4967-8392-47d87596c73c</GUID>
+    <Information info1="some info" info2="more info">RawContent</Information>
+    <CodeSegment info3="another attribute"><![CDATA[this is untouched code and can contain special characters /\@<>]]></CodeSegment>
+  </Machine>
+  <!--2. machine details-->
+  <!--6. machine details-->
+  <Machine test="124214011">
+    <Name>NewServer0006</Name>
+    <IP>10.10.10.12</IP>
+    <GUID>9618b8bc-c200-46ce-b423-ee030555242d</GUID>
+    <Information info1="xml new attribute info" info2="more info">RawContent</Information>
+    <CodeSegment info3="another attribute"><![CDATA[this is untouched code and can contain special characters /\@<>]]></CodeSegment>
+  </Machine>
+  <Machine test="124214010">
+    <Name>NewServer0007</Name>
+    <IP>10.10.10.13</IP>
+    <GUID>9618b8bc-c200-46ce-b423-ee030555242d</GUID>
+    <Information info1="xml new info" info2="more info">RawContent</Information>
+    <CodeSegment info3="another attribute"><![CDATA[this is untouched code and can contain special characters /\@<>]]></CodeSegment>
+  </Machine>
+</Machines>

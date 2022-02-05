@@ -1,0 +1,6 @@
+version: '3.3'
+services: 
+  console1:
+    image: first-dotnetapp
+    deploy:
+      replicas: 2

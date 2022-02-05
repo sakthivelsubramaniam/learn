@@ -1,0 +1,4 @@
+ref : https://www.decodingdevops.com/kubernetes-configmap-tutorial-with-examples/
+
+
+kubectl create configmap my-config --from-file=./game.properties

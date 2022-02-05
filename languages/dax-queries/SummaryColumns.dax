@@ -1,0 +1,23 @@
+  DEFINE
+    MEASURE FactInternetSales[Sales Amount] = SUMX ( FactInternetSales, FactInternetSales[OrderQuantity] * FactInternetSales[UnitPrice] )
+    MEASURE FactInternetSales[ProductTotalPerDay] = 
+      Calculate( FactInternetSales[Sales Amount] , REMOVEFILTERS(FactInternetSales[ProductKey]) )
+
+ EVALUATE
+  SUMMARIZECOLUMNS (
+  DimSalesTerritory[SalesTerritoryGroup] ,
+  DimSalesTerritory[SalesTerritoryCountry] ,
+  DimSalesTerritory[SalesTerritoryRegion], 
+  
+  FactInternetSales[SalesOrderNumber],
+  FactInternetSales[SalesOrderLineNumber],
+    FactInternetSales[OrderDateKey],
+      FactInternetSales[ProductKey],
+		Filter ( FactInternetSales , 'FactInternetSales'[OrderDateKey] <= 20101231),
+		"SalesAmount", FactInternetSales[Sales Amount] ,
+		"ProductTotalPerDay", FactInternetSales[ProductTotalPerDay]
+
+	)
+	
+//  
+//  EVALUATE FILTER( FactInternetSales , 'FactInternetSales'[OrderDateKey] <= 20101231)

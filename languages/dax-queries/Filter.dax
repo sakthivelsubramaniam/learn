@@ -1,0 +1,11 @@
+Evaluate (
+
+	Filter ( Product, PRODUCT[Brand] = "Fabrikam"),
+	 And ( <codition>, <conditionj)
+
+)
+
+//-------------------------------------
+
+
+

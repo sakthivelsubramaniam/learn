@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: websample1dep
+spec:
+  replicas: 3
+  selector:
+    matchLabels :
+      app: websample1
+  template:
+    metadata:
+      labels:
+       app: websample1
+    spec:
+      containers:
+        - name: websample1 
+          image: sakthivelcs/websample1:v1
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 250m
+              memory: 256Mi
+          ports:
+          - containerPort: 80
+            name: websample1port 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: websample1
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: websample1

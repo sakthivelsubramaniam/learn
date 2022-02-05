@@ -1,0 +1,7 @@
+static priority - ranges from 1 to 99 set by user for real time processor.
+dynamic priority - base time quantum +  no of ticks left for the processor.
+nice - range -20 to 19, default is 0.
+counter - no of ticks left for the processor in current epoch.
+
+
+ 

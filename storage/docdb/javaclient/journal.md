@@ -1,0 +1,1 @@
+20-11-25 - transport error when connection from vm. Fixed by changeing the connecction mode to gateway.

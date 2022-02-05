@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# visual studio
+Storage/.vs/Storage/v14/.suo
+
+# vs code
+.ionide

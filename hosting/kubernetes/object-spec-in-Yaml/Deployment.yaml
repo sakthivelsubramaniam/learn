@@ -1,0 +1,25 @@
+apiverion: apps/v1
+kind: deployment
+metadata:
+  name : ngix
+spec:
+  replicas : 3
+  selector :
+    matchLabels :
+      app : ngix
+  template :
+    metadata :
+      Labels:
+        app : ngix
+    spec :
+      containers :
+        -name : ngix 
+         image : nginx:1.15.2
+         ports :
+         -containerPort: 80 
+         resources:
+          cpu: 250m
+          memory: 64MI
+         limits:
+          cpu: 500m
+          memory: 256MI

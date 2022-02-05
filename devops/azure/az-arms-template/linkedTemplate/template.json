@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {  },
+  "variables": {  },
+  "resources": [
+      {
+        "apiVersion": "2016-09-01",
+        "name": "linedTemplate",
+        "type":"Microsoft.Resources/deployments",
+         "properties" :{
+            "mode":"Incremental",
+             "templateLink": {
+              "uri":"https://myarmtemplate.blob.core.windows.net/template/childTemplate.json",
+              "contentVersion":"1.0.0.0"
+             } 
+         }  
+      }
+    ],
+  "outputs": {  }
+}

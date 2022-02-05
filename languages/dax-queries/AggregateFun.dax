@@ -1,0 +1,8 @@
+
+
+
+[SalesAmount] := SUMX ( FactInternetSales, FactInternetSales[OrderQuantity] * FactInternetSales[UnitPrice] )
+
+[SalesAmount] := SUM ( Sales[QrderQuantity] )
+//Sum of the ordered quantity as define by filter context
+

@@ -1,0 +1,1 @@
+[ function ] name () compound-command [redirection] 

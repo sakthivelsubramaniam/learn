@@ -1,0 +1,12 @@
+{
+  "name": "first-package",
+  "version": "1.0.0",
+  "description": "first package",
+  "main": "first-package.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sakthivel",
+  "license": "ISC"
+}

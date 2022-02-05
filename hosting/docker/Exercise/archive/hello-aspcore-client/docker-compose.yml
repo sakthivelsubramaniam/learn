@@ -1,0 +1,16 @@
+version: '3.3'
+services: 
+  web:
+    build: 
+      context: ..\dockSample1-aspcore
+    ports: 
+      - "5000:80"
+    networks:
+      - front-tier
+  console:
+    build: 
+      context: ..\dockSample1
+    networks:
+      - front-tier
+networks:
+  front-tier:

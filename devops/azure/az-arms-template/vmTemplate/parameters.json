@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westus"
+        },
+        "virtualMachineName": {
+            "value": "vmachine1"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1s"
+        },
+        "adminUsername": {
+            "value": "sakthivelcs"
+        },
+        "virtualNetworkName": {
+            "value": "vm1"
+        },
+        "networkInterfaceName": {
+            "value": "vmachine141"
+        },
+        "networkSecurityGroupName": {
+            "value": "vmachine1-nsg"
+        },
+        "adminPassword": {
+            "value": "Password@01*"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "learn01diag287"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/learn01diag287"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "publicIpAddressName": {
+            "value": "vmachine1-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}

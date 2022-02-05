@@ -1,0 +1,11 @@
+com\azure\cosmos\examples\common\CustomPOJO2.class
+com\azure\cosmos\examples\common\Parent.class
+com\azure\cosmos\examples\common\Address.class
+com\azure\cosmos\examples\common\Families.class
+com\azure\cosmos\examples\common\Pet.class
+com\helper\ConsoleApplication.class
+com\azure\cosmos\examples\common\CustomPOJO.class
+com\helper\CosmosHelper.class
+com\azure\cosmos\examples\common\Child.class
+com\azure\cosmos\examples\common\Compress.class
+com\azure\cosmos\examples\common\Family.class

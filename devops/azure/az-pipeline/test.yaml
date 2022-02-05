@@ -1,0 +1,19 @@
+# Build ASP.NET Core project using Azure Pipelines
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core?view=vsts
+
+name : $(Date:yyyyMMdd).$(Rev:.r)
+
+pool:
+   vmImage: 'Ubuntu 16.04'
+
+variables :
+  buildConfiguration: 'Release'
+jobs:
+- job: buildJOb
+
+  steps:
+    - script: |
+      dotnet build --configuration $(buildConfiguration)
+      dotnet test dotnetcore-tests --configuration $(buildConfiguration) --logger trx
+      dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSTAGINGDIRECTORY
+

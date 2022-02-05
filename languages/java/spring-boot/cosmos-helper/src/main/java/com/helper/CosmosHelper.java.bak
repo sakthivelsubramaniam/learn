@@ -1,0 +1,87 @@
+import com.azure.cosmos.ConsistencyLevel;
+import com.azure.cosmos.CosmosClient;
+import com.azure.cosmos.CosmosClientBuilder;
+import com.azure.cosmos.CosmosContainer;
+import com.azure.cosmos.CosmosDatabase;
+import com.azure.cosmos.models.CosmosContainerProperties;
+import com.azure.cosmos.models.CosmosContainerResponse;
+import com.azure.cosmos.models.CosmosDatabaseRequestOptions;
+import com.azure.cosmos.models.CosmosDatabaseResponse;
+import com.azure.cosmos.models.CosmosItemRequestOptions;
+import com.azure.cosmos.models.CosmosQueryRequestOptions;
+import com.azure.cosmos.models.FeedResponse;
+import com.azure.cosmos.models.PartitionKey;
+import com.azure.cosmos.models.SqlParameter;
+import com.azure.cosmos.models.SqlQuerySpec;
+import com.azure.cosmos.models.ThroughputProperties;
+import com.azure.cosmos.util.CosmosPagedIterable;
+
+
+public class CosmosHelper1 {
+
+    private CosmosClient client;
+    private final String databaseName = "SampleDB";
+    private final String containerName = "FamilyContainer";
+   // private final String documentId =    UUID.randomUUID().toString();
+    private final String documentLastName = "Witherspoon";
+    private CosmosDatabase database;
+    private CosmosContainer container;
+
+    public void Exeute()    {
+
+        //  Create sync client
+        client = new CosmosClientBuilder()
+        .endpoint("https://learn-cosmosdb.documents.azure.com:443/")
+        .key("g2FDFq7YCDHu6dKwU3mv5v98mBNK6fXBdAClIis8NjwgO7jvrW2QR2KrdlbgtsqsersobiLl5YHCXIrd36fbKQ==")
+        .consistencyLevel(ConsistencyLevel.EVENTUAL)
+        .contentResponseOnWriteEnabled(true)
+        .buildClient();
+        
+    }
+    private void createDatabaseIfNotExists() throws Exception {
+        //logger.info("Create database " + databaseName + " if not exists...");
+
+        //  Create database if not exists
+        CosmosDatabaseResponse databaseResponse = client.createDatabaseIfNotExists(databaseName);
+        database = client.getDatabase(databaseResponse.getProperties().getId());
+
+       // logger.info("Done.");
+    }
+
+
+    private void createContainerIfNotExists() throws Exception {
+       // logger.info("Create container " + containerName + " if not exists.");
+
+        //  Create container if not exists
+        CosmosContainerProperties containerProperties =
+                new CosmosContainerProperties(containerName, "/lastName");
+
+        // Provision throughput
+        ThroughputProperties throughputProperties = ThroughputProperties.createManualThroughput(400);
+
+        //  Create container with 200 RU/s
+        CosmosContainerResponse containerResponse = database.createContainerIfNotExists(containerProperties, throughputProperties);
+        container = database.getContainer(containerResponse.getProperties().getId());
+
+        //logger.info("Done.");
+    }
+
+    private void createDocument() throws Exception {
+      //  logger.info("Create document " + documentId);cl
+
+        // Define a document as a POJO (internally this
+        // is converted to JSON via custom serialization)
+        Family family = new Family();
+        family.setLastName(documentLastName);
+        family.setId("familyid0-01");
+
+        // Insert this item as a document
+        // Explicitly specifying the /pk value improves performance.
+        container.createItem(family,new PartitionKey(family.getLastName()),new CosmosItemRequestOptions());
+
+       // logger.info("Done.");
+    }
+
+
+
+}

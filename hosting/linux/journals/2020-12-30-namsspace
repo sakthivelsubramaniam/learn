@@ -1,0 +1,6 @@
+
+ returns process id 
+` pidof bash `
+ unshared  -- runs a programe in the name space seperated from the comand line 
+ ` sudo unshare --fork --pid --mount-proc zsh `
+ 
