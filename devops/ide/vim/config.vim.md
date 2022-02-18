@@ -29,5 +29,10 @@ Plug 'autozimu/LanguageClient-neovim', {
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
+after the configuring the above lines, run 
+ 
+ ``` :PlugInstall ``` 
+ 
+
 
 
