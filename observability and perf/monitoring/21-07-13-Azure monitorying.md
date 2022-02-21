@@ -52,7 +52,7 @@
 ## App insight
     - app insight initializer, 
     
-``` c#
+```
           public class CustomPropertyTelemetryInitializer : ITelemetryInitializer
         {
             public void Initialize(ITelemetry telemetry)
@@ -66,7 +66,7 @@
     - Request Telemetry
         -  it is Telemetry that App Insight sdk collects by default about the http request
 
-```csharp
+```cs
 public void ConfigureServices(IServiceCollection services)
 {
 services.AddControllers();

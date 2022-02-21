@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "spunJzPqsPmTvdQF4ahGWyTQml/DingTDYrAb2Af7npNoGg1bI53S4nCFOEsPdptb+gisu+jZadjfp9z5piGhw==",
+  "success": true,
+  "projectFilePath": "d:\\Code\\learn\\languages\\fsharp\\web-app\\fwebapi\\fwebapi.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Welcome\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\Welcome\\.nuget\\packages\\suave\\2.6.1\\suave.2.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

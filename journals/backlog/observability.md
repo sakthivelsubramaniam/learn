@@ -8,6 +8,9 @@ https://brettmckenzie.net/2019/10/02/things-i-wish-i-knew-earlier-about-distribu
 What are the pre-request for dependency telemetry ?
  - understand how http request is logged.
 
+# tools 
+ Azure : AppInsights - query language.
+
 exercises
  create server A
  Create server b

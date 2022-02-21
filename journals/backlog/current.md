@@ -1,10 +1,13 @@
-Learning 
----
- 
+### current focus 
+- Azure App Insights
+- functional fp-ts library/implement it in the local project 
+
+
+------------------
 ### Deep Drive  
  - dotnet task parallel library, Synchronize Context.
  - blazor server - tutorials 
- - 
+ - Azure : AppInsights - query language. 
 
 ### get an overview
  - tyre

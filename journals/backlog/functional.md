@@ -7,7 +7,10 @@
 1. javascript - Rambda
 
 1. Revise computational Expression
-1. function javascript library 
+
+### functional javascript
+## fs-tp 
+ Explore 
 
 fsharp
 F# supports data providers and LINQ
