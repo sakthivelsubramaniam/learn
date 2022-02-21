@@ -31,7 +31,8 @@ examples
 
 ## lift2, lift3, lift3
 - descr: Combines 2 (3 o 4) elevated value using specific function
-- signation: E<a>
+- signation: ( a->b->c ) -> E<a> -> E<b> -> E<c>  
+- 
 
 
 
