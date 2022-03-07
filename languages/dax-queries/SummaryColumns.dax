@@ -21,3 +21,17 @@
 	
 //  
 //  EVALUATE FILTER( FactInternetSales , 'FactInternetSales'[OrderDateKey] <= 20101231)
+
+
+///2nd query
+EVALUATE SUMMARIZECOLUMNS( 
+
+FactInternetSales[CurrencyKey],
+FactInternetSales[SalesTerritoryKey],
+
+FactInternetSales[ProductKey],
+
+FILTER(FactInternetSales, FactInternetSales[DueDateKey]>=20111101 && FactInternetSales[DueDateKey] < 20111103 ),
+"sale amount", sum(FactInternetSales[SalesAmount])
+
+)
