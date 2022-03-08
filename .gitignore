@@ -108,3 +108,8 @@ Storage/.vs/Storage/v14/.suo
 
 # vs code
 .ionide
+
+// git clone --depth=1 <url>
+
+bin
+obj 

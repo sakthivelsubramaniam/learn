@@ -10,6 +10,13 @@ Angular components
 
 ```
 
+## Parts of the components
+	app.commponent.css  
+	app.commponent.html   
+	app.component.spec.ts  
+	app.component.ts  
+	app.module.ts  
+
 ### links 
 [Routing ](https://www.djamware.com/post/5d58b409bcc156d4a8a3df8f/angular-8-tutorial-routing-navigation-example)
 
