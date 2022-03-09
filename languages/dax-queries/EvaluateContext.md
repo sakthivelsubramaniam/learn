@@ -26,7 +26,29 @@ Row Context
 Context Transition
 ---
 
+ In Calculate and CalculateTable, the row context is converted into equivalent filter context.
+ * For aggregate functions that does not have notion of rowwise operation, it operates on entire table restricted by filter.
+ * For aggregate functions within Calculate, Context Transition take palce, hence the columns mentions in the rows are added to the filter context.So unless filter is modified within calculate,it only operates for the row.
+
+```dax
+EVALUATE SELECTCOLUMNS ( 
+Filter(Sales, [ProductId] IN {1,2,3,4} ),
+"Productid" , Sales[ProductId],
+"YearMonth" , 
+ YEAR(Sales[OrderDate]) ,
+
+"SumOf Qty" , Sum(Sales[Qty]),
+"SumX of Qty", SumX ( sales,Sales[Qty] ),
+"SumOf Cal of Qty", Calculate ( Sum(Sales[Qty])),
+"SumX Of Cal of Qty", Calculate (  SumX ( sales,Sales[Qty] ))
+
+)
+```
+
 ---------------------
 point to remember
 ----
 * Dax Columnal DB, it applies the filter to the column only not entire table
+* When Analysing the formula,check how individal function is evaluated.
+* Deduce what should be the filter context, in which it will execute.
+* 
