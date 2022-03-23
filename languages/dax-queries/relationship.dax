@@ -1,0 +1,12 @@
+// for many to one relationship, 
+// with select/addcolumn function, related keyword should be used.
+
+ EVALUATE 
+ 
+ SELECTCOLUMNS( 
+  PRODUCT,
+  "Name", 'Product'[Name],
+  "SubCategory", 'Product'[SubCategoryId],
+  "SubCategoryName",
+   RELATED( SubCategory[SubCategoryName])
+ )

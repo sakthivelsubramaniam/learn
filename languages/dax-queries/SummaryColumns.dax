@@ -35,3 +35,14 @@ FILTER(FactInternetSales, FactInternetSales[DueDateKey]>=20111101 && FactInterne
 "sale amount", sum(FactInternetSales[SalesAmount])
 
 )
+
+// navigating related columns.
+EVALUATE SelectCOLUMNS ( 
+Filter(Sales, [ProductId] IN {1,2,3,4} ),
+"Productid" , Sales[ProductId],
+" ProductName ", RELATED(PRODUCT[Name]),
+"YearMonth" , 
+ YEAR(Sales[OrderDate]) ,
+
+"SumOf Qty" , Sum(Sales[Qty])
+)
