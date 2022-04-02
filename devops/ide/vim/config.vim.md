@@ -1,4 +1,5 @@
-" _vimrc  is the config files for gvim and vim on windows 
+
+## _vimrc  is the config files for gvim and vim on windows 
 
 
 |command | description |
@@ -15,6 +16,8 @@
 |colorscheme evening| " set the color schemeI
 
 ## plug in
+Url: [PlugInstall](https://github.com/junegunn/vim-plug)
+
 
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 

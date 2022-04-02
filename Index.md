@@ -45,5 +45,9 @@ Storage
  -  
  
 dev ops
-
+ - ide
+ - source control
+ - package-manager
+ - os-tip-and-tricks
+ - utility script
 Project Management issue
