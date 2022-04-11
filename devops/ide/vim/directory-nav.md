@@ -27,4 +27,5 @@
  - mF unmark the file
  - qf file info
  - Mark files using a |location-list|
- 
+### change drive
+ - :e D:\
