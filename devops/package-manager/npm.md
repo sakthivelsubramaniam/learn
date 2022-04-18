@@ -94,3 +94,7 @@ Global Config File:    $PREFIX/etc/npmrc or userconfig param
 Built-In Config File : path/to/npm/itself/npmrc
 Default Config:        node_modules/npmconf/config-defs.js
 ```
+
+## Trouble Shooting
+For Error related with npm installation, authentication issue.
+ - check the local proxy setting, It may affect the installtion of npm
