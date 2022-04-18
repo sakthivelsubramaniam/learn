@@ -8,10 +8,8 @@ Architecture
 - Domain driven Design
 - SOA 
 
-Analytics and data pipleline
+ data engineering
 - Data Pipleline ( ETL and ELT)
-- Anaytical database
-- Data ware house
 - batch and stream processing
 - 
 
@@ -42,7 +40,8 @@ Storage
  - Overview Design Principles
  - Document DB
  - RDBMS
- -  
+ - columnstore
+ - widecolumnstore 
  
 dev ops
  - ide
