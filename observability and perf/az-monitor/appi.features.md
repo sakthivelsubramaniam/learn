@@ -1,8 +1,3 @@
-# Azure Monitor- 
-  azure monitor combines legacy azure monitor, app insight and log analytics.
-	- Log data engine and query language now refers to Azure Monitor logs
-  - 
-  
 ## App Insights
  - host diagnostics like perf conunter, az diagnostics, docker logs
  - app logs
@@ -14,6 +9,10 @@
 - depenceny rates,
 - exceptions
 - 
+
+### Thrid Party Library
+- Open Telemetry 
+- Open Census
 
 ###  Reports
  - Alerts, Creates and manage log alerts in app insights.
