@@ -21,4 +21,9 @@ rem building for production
 ng build --prod --project="app-name1"
 ng build --prod --project="app-name1"
 
+rem to display the config
+ng config 
+
+rem create a service
+ng service  service/simpleservice1
 
