@@ -1,7 +1,9 @@
 Plugins 
 ------
-
+```
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/seoul256.vim'
 Plug 'scrooloose/nerdtree'
 plug 'joshdick/onedark.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+```
