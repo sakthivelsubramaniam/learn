@@ -29,3 +29,8 @@
  - Mark files using a |location-list|
 ### change drive
  - :e D:\
+
+### nav to another path
+ - :ex ~/  nav to the home directory
+ - :ex C:\wkbench nav to the folder.
+ - 
