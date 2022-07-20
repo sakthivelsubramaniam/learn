@@ -1,6 +1,6 @@
 Architecture 
 - Definitions
-- Princeple
+- Principle
 - Documenting
 - Architectural Styles
 - Quality Attributes
@@ -8,10 +8,8 @@ Architecture
 - Domain driven Design
 - SOA 
 
-Analytics and data pipleline
+Data pipleline
 - Data Pipleline ( ETL and ELT)
-- Anaytical database
-- Data ware house
 - batch and stream processing
 - 
 
@@ -42,12 +40,29 @@ Storage
  - Overview Design Principles
  - Document DB
  - RDBMS
- -  
- 
+ - Anaytical database
+ - Data ware house
+
+Testing
+ -  Unit testing
+ -  Automation testing
+
+
 dev ops
  - ide
  - source control
  - package-manager
  - os-tip-and-tricks
  - utility script
+
 Project Management issue
+
+Work loads
+ - Super Scaled APplication
+    - Facebook
+    - Stack overflow
+    - Uber
+    - Skype
+    - Twitter
+    - OAuthService
+    
