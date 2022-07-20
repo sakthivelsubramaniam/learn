@@ -20,4 +20,3 @@ Memory is incredibly cheap. Max it out for almost free performance. At Dell, for
 * Few applications can scale linearly with the number of processors. Locks will be taken which serializes processing and ends up reducing the effectiveness of your Big Iron.
 * With larger form factors like 7U power and cooling become critical issues. Using something between 1U and 7U might be easier to make work in your data center.
 * As you add more and more database servers the SQL Server license costs can be outrageous. So by starting scale up and gradually going scale out with non-open source software you can be in a world of financial hurt.
-i
