@@ -25,9 +25,14 @@ Hosting
 Code 
  - design patterns
  - principles
+    - [Software terms](/code/principles/terms.md)
  - distributed Algorithmns
  - functional programing principle
  - Performance  
+ - Testing
+   - [Terms](/testing/terms.md)
+   - Unit Testing
+   - Automation testing
 
 Security
  - Certs
@@ -42,10 +47,6 @@ Storage
  - RDBMS
  - Anaytical database
  - Data ware house
-
-Testing
- -  Unit testing
- -  Automation testing
 
 
 dev ops
