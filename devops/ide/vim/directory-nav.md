@@ -29,3 +29,5 @@
  - Mark files using a |location-list|
 ### change drive
  - :e D:\
+### To browse current directory
+:Sex -  to browse the current directory

@@ -8,7 +8,10 @@ Architecture
 - Domain driven Design
 - SOA 
 
-Data pipleline
+architecturial-decision
+- [front-end.md
+
+data transfer
 - Data Pipleline ( ETL and ELT)
 - batch and stream processing
 - 
@@ -34,10 +37,27 @@ Code
    - Unit Testing
    - Automation testing
 
+
+langauge and core bcl libraries
+  - [bash](/code/languages/bash)
+  - dax-queries
+  - fsharp
+  - haskell
+  - java
+  - kusto query
+  - markdown
+  - nodejs
+  - phython
+  - plantuml
+  - powershell
+  - ui-client
+   - angular 
+   - [blazor](/code/languages/ui-client/blazor)
+   - razor
+   - sass
 Security
  - Certs
 
-langauge and core bcl libraries
 
 observability and perf
 

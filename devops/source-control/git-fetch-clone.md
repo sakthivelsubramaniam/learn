@@ -1,4 +1,4 @@
-[Cloning large repo using depth ](http://www.sanyamkhurana.com/blog/how-to-clone-a-large-repository-using-git.html)
+
 
 ```markdown
 git clone --depth=1 <url>
