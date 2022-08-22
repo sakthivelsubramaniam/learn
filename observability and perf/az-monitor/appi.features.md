@@ -1,0 +1,41 @@
+## App Insights
+ - host diagnostics like perf conunter, az diagnostics, docker logs
+ - app logs
+
+###  Collects
+- install the sdk to the application.
+- uses instrumentation id to send the data to the azure monitor.
+- keep track of Request rates, response time, failure rates.
+- depenceny rates,
+- exceptions
+- 
+
+### Thrid Party Library
+- Open Telemetry 
+- Open Census
+
+###  Reports
+ - Alerts, Creates and manage log alerts in app insights.
+ - applicaiton map - triage distributed applicaiton
+ - Profile live Azure app service 
+ - usage analysis with application insights
+ - advance features of azure metric explorer
+ - search application insights
+ - app insights overview dash board
+ - log queries in azure monitor
+ -  
+ - vs - debug application insight in vs studio.
+ - use snapshot debugger to debug snap short
+ 
+ - power bi
+ 
+ - continous export
+ - rest api
+ 
+#### Alerts
+
+#### power bi
+
+#### Vs 
+
+- 

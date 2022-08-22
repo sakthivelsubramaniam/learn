@@ -29,5 +29,8 @@
  - Mark files using a |location-list|
 ### change drive
  - :e D:\
-### To browse current directory
-:Sex -  to browse the current directory
+
+### nav to another path
+ - :ex ~/  nav to the home directory
+ - :ex C:\wkbench nav to the folder.
+ - 

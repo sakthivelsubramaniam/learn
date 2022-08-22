@@ -1,5 +1,3 @@
-<<<<<<<< HEAD:datatransfer/AzureDataFactory.md
-
 Learn azure data factory
 ------
 Source endpoint
@@ -42,4 +40,3 @@ documentation
 ----
 http://highscalability.squarespace.com/blog/category/strategy
 
->>>>>>>> 04f3979e6147b75ac2428a6c2a8516a2747bede1:architecture/resouce.md
