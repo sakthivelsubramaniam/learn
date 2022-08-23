@@ -8,7 +8,7 @@
 
 ### azure blobs
 
-## document db
+### document db
 ---
 ### commos db 
 - cosmosdb - manage dtu
@@ -18,7 +18,6 @@
 ## columular db/ analytical db
 ----
 ### Cubes
-
 
 ### hana sql
  - find the capability 
@@ -30,6 +29,9 @@
 ## ETL service
 ---
 - datafactory
+- delta architecture
 
 ## Dax queries
 - Explore Dax function - keep filters
+
+## File format used for datatransfer

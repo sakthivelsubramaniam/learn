@@ -1,35 +1,32 @@
-### current focus 
-- Azure App Insights
-- functional fp-ts library/implement it in the local project 
-
+# current focus 
 
 ------------------
 ### Deep Drive  
- - dotnet task parallel library, Synchronize Context.
+ - C# 8, 9,10,11 new features
+ - dotnet 6 new features
  - blazor server - tutorials 
- - Azure : AppInsights - query language. 
+ - dotnet task parallel library, Synchronize Context.
 
-### get an overview
+### get overview and knowledge snippet
  - tyre
  - functional javascript library 
- - sonar cube
- - sonar lint 
+ - devops: sonar cube/lint, tools to run metrics locally
  - algorithmn, distributed algorithm  
  - hana sql- columnal db designs 
+ - wide column store
+ - design columnar dbs
  - Azure new on storage
  - Azure sql cost 
  - Azure Snapzes 
- - dotnet 6
-
-### performance
-
-### snippets
-
+ - power platform
+ - issues related with persistent db vs in memory store
+ - performance engineering
+ - functional fp-ts library/implement it in the local project 
+ - parquet file format - explore the library
+ -  
 
 ### exercise and configuration to do
- - install gvim and neo vim in laptop
- - Map delete to the hole register
- - Past from the hole register.  
+ - vim,  
 
 
 
