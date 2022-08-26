@@ -1,18 +1,3 @@
-Learn azure data factory
-------
-Source endpoint
- Link service, objects that have credentials and address
-Dataset - defijition of data that is pulled from 
-Activity - copy Activity
-Target (link service)
-Dataset (target) 
-
-Sink endpoint
-  location
-  credentials
------------------------------------
-set working folder in vi editor
-
 ---
 Resource for qualitative software architecture
 -----

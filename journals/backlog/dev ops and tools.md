@@ -1,12 +1,10 @@
 ### editor 
-### vim editor
-1. navigate folder plug-in
-2. find better vim distribution.
-3. vi - config 
+1. vim - config 
+2. practise vim register  
+3. vscode - vsplit and hsplit
+4. vs - vssplit and hsplit
 
-### Emac editor
-1. basic function and vi mode 
-  
+
 ### tools 
  - project Tyre
  - dapr  

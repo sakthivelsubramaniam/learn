@@ -23,3 +23,5 @@
 2. span
 3. Boilerplate 
 4. aspnet - pipeline/ routing
+5. Explore language new features after C# 8
+    - Explore records

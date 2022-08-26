@@ -1,6 +1,9 @@
 
 ## storage
 ---
+## concept
+ - Diff between inmemory vs persistent db
+
 ### azure files
 - mount the file from windows
 

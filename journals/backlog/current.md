@@ -1,14 +1,12 @@
 # current focus 
-
-------------------
 ### Deep Drive  
  - C# 8, 9,10,11 new features
  - dotnet 6 new features
  - blazor server - tutorials 
  - dotnet task parallel library, Synchronize Context.
+ - diff between inmemory vs persistenat db
 
 ### get overview and knowledge snippet
- - tyre
  - functional javascript library 
  - devops: sonar cube/lint, tools to run metrics locally
  - algorithmn, distributed algorithm  
@@ -23,10 +21,9 @@
  - performance engineering
  - functional fp-ts library/implement it in the local project 
  - parquet file format - explore the library
- -  
 
 ### exercise and configuration to do
- - vim,  
-
+ - vim,practise
+ - vim,set default window size 
 
 

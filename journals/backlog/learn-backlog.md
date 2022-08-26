@@ -1,32 +1,4 @@
 # Learning 
-
-## Current focus
-
-### Deep Drive  
- - dotnet task parallel library, Synchronize Context.
- - blazor server - tutorials 
- - C# 9,10,11 new features
- - dotnet 6 new features
- - Explore power apps.
-
-### knowledge snippet and overview
- - tyre
- - functional javascript library 
- - sonar cube
- - sonar lint 
- - algorithmn, distributed algorithm  
- - hana sql- columnal db designs 
- - Azure new on storage
- - Azure Snapzes 
- - dotnet cli 
-
-### performance
-
-### exercise and configuration to do
-
-
-
------------
 ## Topic of interest
  - Language features
 	- powershell
@@ -45,6 +17,8 @@
 	- linux network tools
    	- code metrics: Sonar cubes and lints
   	- perf|loadtesting: nBombard
+	- tyre
+	- dapper
 
 - libs and frameworks
 	- perf: Benchmark 
