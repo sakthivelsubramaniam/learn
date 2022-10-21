@@ -1,0 +1,12 @@
+
+@startuml
+
+Alic -> Bob
+
+newpage  splitting sequence diagram
+
+Alic -> Bob
+
+
+
+@enduml

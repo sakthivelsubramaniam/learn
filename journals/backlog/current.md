@@ -1,17 +1,27 @@
 # current focus 
-### Deep Drive  
+
+### Read article
+ 
+ - Net performance - pdf
+
+### Search in net
+ - inmemory db data structures
+
+### Code
+ - code: working with buffers
  - C# 8, 9,10,11 new features
  - dotnet 6 new features
  - blazor server - tutorials 
  - dotnet task parallel library, Synchronize Context.
- - diff between inmemory vs persistenat db
 
-### get overview and knowledge snippet
- - functional javascript library 
+### prepare large dataset 
+ - KC database
+ 
+
+### Overview  
  - devops: sonar cube/lint, tools to run metrics locally
+ - functional javascript library 
  - algorithmn, distributed algorithm  
- - hana sql- columnal db designs 
- - wide column store
  - design columnar dbs
  - Azure new on storage
  - Azure sql cost 
@@ -25,5 +35,7 @@
 ### exercise and configuration to do
  - vim,practise
  - vim,set default window size 
+ - vim,multi-cursor unable to install in Lenova
 
-
+### reading
+ - [Big table original article.](file:///D:/Documents/Study%20Materials/Data/WideColumnStore/bigtable-osdi06.pdf)

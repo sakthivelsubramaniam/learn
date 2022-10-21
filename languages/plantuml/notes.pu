@@ -1,0 +1,16 @@
+@startuml
+
+class Class1
+class Class2
+
+Class1 --> Class2
+note left: this is left note
+
+Class2 --> Class3
+note right: this is right note
+
+note left of Class1 #red : useing of key words. 
+
+note left of Class1 : over1 
+
+@enduml

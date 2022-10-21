@@ -10,7 +10,7 @@ Architecture
 
 architecturial-decision
 - [front-end.md
-
+-  [Decision on hosting](/)
 data transfer
 - Data Pipleline ( ETL and ELT)
 - batch and stream processing
@@ -31,6 +31,7 @@ Code
     - [Software terms](/code/principles/terms.md)
  - distributed Algorithmns
  - functional programing principle
+ - caching
  - Performance  
  - Testing
    - [Terms](/testing/terms.md)

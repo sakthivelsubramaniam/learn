@@ -1,0 +1,9 @@
+
+@startuml
+
+digraph dia1 {
+ 
+  A -> {B C}
+
+}
+@enduml

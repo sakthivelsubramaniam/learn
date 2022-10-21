@@ -1,0 +1,15 @@
+@startuml
+
+header page1
+
+Class01 "1" *-- "many" Class02 : contains
+
+Class03 o-- Class04 : aggregation
+
+newpage  
+
+Class05 --> "1" Class06
+
+footer classfooter1
+
+@enduml

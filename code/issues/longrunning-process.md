@@ -8,6 +8,7 @@ l Can be address if the application provide, framework for creating the Job  .
 3.  Inventory evaluations
 4.  Project Creations or Creation of complex objects.
 5.  Specific reports generations.
+6.  Discision engine.
 
 ## Async call that returns immidiatly
 ### Consideration

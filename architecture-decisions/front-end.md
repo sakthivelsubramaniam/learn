@@ -20,4 +20,8 @@
   * Teams familiarity with application technology.
   * Cost of scaling the application when server side Blazor is used.
         * Signar-R is used and connection state has to be stored in the server. This has to be estimated.
-  * Is it a progressive app. Whether UI has to build for both mobile and web. 
+  * Is it a progressive app. Whether UI has to build for both mobile and web.
+
+
+Erode District, Gobichettipalayam Registration District, Gobi Joint No.I Sub- Registration District, Gobichettipalayam Taluk, Veerapandi village, 
+ S.F.No.49 B (part), at present as per Town survey Ward-A, Block-14, T.S.No.25/4 (Patta No.487)
