@@ -1,0 +1,44 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.productIconTheme": "icons-kamekazi-dark",
+  "plantuml.render": "PlantUMLServer",
+  "plantuml.urlFormat": "svg",
+  "plantuml.server": "http://www.plantuml.com/plantuml",
+  "editor.lineNumbers": "relative",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.sneak": true,
+  "vim.insertModeKeyBindings": [
+     
+    { "before": ["j", "j"], "after": ["<Esc>"] }
+   ],
+  "vim.normalModeKeyBindings": [
+    
+  ],
+ "vim.normalModeKeyBindingsNonRecursive": [  ],
+ "vim.handleKeys": {
+      "<C-d>": false
+    },
+    
+"vim.commandLineModeKeyBindingsNonRecursive": [
+
+],
+"vim.statusBarColors.visualblock": "",
+"markdown-preview-enhanced.previewTheme": "monokai.css",
+"vim.visualModeKeyBindings": [
+
+],
+"editor.codeActionsOnSave": {
+
+},
+"vim.commandLineModeKeyBindings": [
+
+]
+
+}

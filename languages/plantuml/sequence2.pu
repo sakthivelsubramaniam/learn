@@ -1,18 +1,15 @@
 @startuml
-participant part1 #Red
-actor act1  #00AA00
-boundary bound1
-control ctrl1
-collections col1
-queue queue1
+    participant part1 #Red
+    actor act1  #00AA00
+    boundary bound1
+    control ctrl1
+    collections col1
+    queue queue1
 
-part1 -> act1 : to actor  
-part1 -> bound1 : to bound
-part1 -> ctrl1: to ctrl
-part1 -> col1
-part1 -> queue1
-
-
-
+    part1 -> act1 : to actor  
+    part1 -> bound1 : to bound
+    part1 -> ctrl1: to ctrl
+    part1 -> col1
+    part1 -> queue1
 
 @enduml
