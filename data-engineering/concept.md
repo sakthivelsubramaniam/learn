@@ -42,7 +42,9 @@ You may also receive complex structured and unstructured documents, such as NACH
 ### master data management pipeline
 Data matching and merging is a crucial technique of master data management (MDM). This technique involves processing data from different source systems to find duplicate or identical records and merge records in batch or real time to create a golden record, which is an example of an MDM pipeline.data quality pipeline
 B2B data exchange pipeline.
+
 --------------
+
 ### tools 
 ### batch processing
 Informatica PowerCenter
