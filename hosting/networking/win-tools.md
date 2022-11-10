@@ -29,3 +29,8 @@
 
   ## TFTP
   starts the tftp client in the console.
+
+  ## netstat
+  get the various net info from the current machine.
+
+  
