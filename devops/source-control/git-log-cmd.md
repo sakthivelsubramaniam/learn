@@ -14,3 +14,6 @@
 | git log <filename> | log history of the file |
 | git log <since commitId>..<until commitId> | log history by range |
 | git log -n 3 -onelin | limits the number of commits |
+|   |   |
+|---|---|
+|   |   |

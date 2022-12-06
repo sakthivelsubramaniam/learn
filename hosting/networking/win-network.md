@@ -39,3 +39,20 @@ nslookup -type any HOSTNAME
 ***Flush and reset client resolver***
 ipconfig /flushdsn
 
+***Get mac address***
+getmac
+getmac /s srvmain
+getmac /s srvmain /u maindom\hiropln /p p@ssW23a
+
+***Displays from ARC cache***
+arp -a
+
+***Delete the entries***
+arp -d
+
+***Display active ports***
+netstat -an
+-a : displays all active tcp port
+-n : address and port number are expressed numerically.
+
+
