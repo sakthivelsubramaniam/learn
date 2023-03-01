@@ -9,6 +9,7 @@
     4.  Enable App insights to log error message
     5.  Implement Correlation Id, TraceId and Span Id accross the microservices.
         So that system should be able to identify the flow of events.
+    6.  Range of error should be assigned to each microservices, each microservices should use error code within these range.
 7. 
 
 
