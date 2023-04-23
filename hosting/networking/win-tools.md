@@ -32,5 +32,6 @@
 
   ## netstat
   get the various net info from the current machine.
+  [net state](https://learn.microsoft.com/en-us/windows-server/administration/windows-ommands/netstat)
 
   

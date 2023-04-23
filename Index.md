@@ -25,22 +25,23 @@ Hosting
  - protocols  
  - DNS Infrastructure 
 
-Code 
+Code-theory
+ - [Algorithmn](/code-theory/algorithm/Index.md)
+ - distributed Algorithmns
  - design patterns
  - principles
-    - [Software terms](/code/principles/terms.md)
- - distributed Algorithmns
- - functional programing principle
+    - [Software terms](/code-theory/concepts/language-concepts.md)
+ - [functional programing principle](/code-theory/fp-priniple/index.md)
  - caching
  - Performance  
  - Testing
-   - [Terms](/testing/terms.md)
+   - [Terms](/code-theory/testing/terms.md)
    - Unit Testing
    - Automation testing
 
 
 langauge and core bcl libraries
-  - [bash](/code/languages/bash)
+  - [bash](/languages/bash)
   - dax-queries
   - fsharp
   - haskell
@@ -53,7 +54,7 @@ langauge and core bcl libraries
   - powershell
   - ui-client
    - angular 
-   - [blazor](/code/languages/ui-client/blazor)
+   - [blazor](/languages/ui-client/blazor)
    - razor
    - sass
 Security
@@ -76,6 +77,9 @@ dev ops
  - package-manager
  - os-tip-and-tricks
  - utility script
+ - Productivity
+   - [outlook](/devops/productivity/outlook.md)
+
 
 Project Management issue
 
