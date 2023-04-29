@@ -7,10 +7,11 @@ Architecture
 - Microservice Architecture
 - Domain driven Design
 - SOA 
-
+- [Serviceless](architecture/serviceless.md)
+- [Resource](architecture/resouce.md)
 architecturial-decision
-- [front-end.md
--  [Decision on hosting](/)
+-  [front end](front-end.md)
+-  [Decision on hosting](Implementation-Guide/Decisions/hosting.md)
 data transfer
 - Data Pipleline ( ETL and ELT)
 - batch and stream processing
@@ -65,7 +66,7 @@ observability and perf
 
 Storage
  - Overview Design Principles
- - Document DB
+ - [Document DB](/storage/docdb/Index.md)
  - RDBMS
  - Anaytical database
  - Data ware house
