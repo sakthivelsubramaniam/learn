@@ -3,10 +3,10 @@
 
 ## Multi threaded programming challenges
 
-* Users cannot read or write values accross the thread, because it can lead to race condition which hard to  fix bug. 
-* To access the data accross the thread, we need to some synchronization primitives like mutexes and semaphores.
+* Users cannot read or write values across the thread, because it can lead to race condition which hard to  fix bug. 
+* To access the data across the thread, we need to some synchronization primitives like mutexes and semaphores.
 * Or we can use much more advance message passing primitives which is build synchronization primitives.
-* To abstatract the users from implementation details of synchronization primitives, dotnet provides synchronization context.
+* To abstract the users from implementation details of synchronization primitives, dotnet provides synchronization context.
 
 ## Synchronization context.
 

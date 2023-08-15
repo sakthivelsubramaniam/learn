@@ -7,7 +7,7 @@
 # General Scenario
 
 - Fifo Queue/sequential Processing in Serverless
-- Priority Queue 
+- Priority Queue. 
 - Handling Concurrency.
 - Long Running Process.
-- Batch processing 
+- Batch processing.

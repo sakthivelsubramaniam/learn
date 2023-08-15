@@ -22,12 +22,15 @@ export class AppModule { }
 ```
 
 ## Metadata
+
 * Metadata is used during compilation process, it is used to build injector. 
 * It falls into three categories
 	 1. Static - (Declaration) used by compilter
 	 2. runtime - Providers used by injectors at runtime to resolve the dependency.
 	 3. Composability/Grouping of NgModules - Brining NgModules together using import/export arrays.
+
 ### Declaration and Imports
+
 * selector are used to trigger the directors and pipes during compilation.
 * When the template's of the components are compiled, the directive and pipes used in the templates are triggered using selectors which are determine by declaration/Imports in the ng module. 
 

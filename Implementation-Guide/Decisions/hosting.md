@@ -12,6 +12,7 @@
  6. Azure Functions
  7. Azure Durable functions
  8. Web Jobs
+ 9. Logic Apps
 
   Orchestrating the container.
       - AKS

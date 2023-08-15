@@ -1,4 +1,6 @@
-Architecture
+# Learn Index
+
+## Architecture
 
 - Definitions
 - Principle
@@ -8,7 +10,7 @@ Architecture
 - Microservice Architecture
 - Domain driven Design
 - SOA
-- [Serviceless](architecture/serviceless.md)
+- [Serviceless](architecture/serverless.md)
 - [Resource](architecture/resouce.md)
   architecturial-decision
 - [front end](front-end.md)
@@ -18,18 +20,23 @@ Architecture
 - batch and stream processing
 -
 
-Integration
+## Integration
 
 - EAI
 - Protocols
 
-Hosting
+## Hosting
 
-- networking
-- protocols
-- DNS Infrastructure
+- [windows](/hosting/windows/)
+- [linux](/hosting/linux/)
+- [K8](/hosting/kubernetes/)
+- [docker](/hosting/docker)
+- [networking](/hosting//networking/index.md)
 
-Code-theory
+## Data-Engineering
+ - [Folder Content](/data-engineering/)
+
+## Code-theory
 
 - [Algorithmn](/code-theory/algorithm/Index.md)
 - distributed Algorithmns
@@ -44,15 +51,15 @@ Code-theory
   - Unit Testing
   - Automation testing
 
-langauge and core bcl libraries
+## langauge and core bcl libraries
 
 - [bash](/languages/bash)
-- dax-queries
-- fsharp
-- haskell
-- java
-- kusto query
-- markdown
+- [dax-queries](/languages/dax-queries/)
+- [fsharp](/languages/fsharp/)
+- [haskell](/languages/haskell/)
+- [java](/languages/java/)
+- [kusto query](/languages/kusto%20query/)
+- [markdown](/languages/markdown/)
 - nodejs
 - phython
 - plantuml
@@ -65,9 +72,9 @@ langauge and core bcl libraries
   Security
 - Certs
 
-observability and perf
+## observability and perf
 
-Storage
+## Storage
 
 - Overview Design Principles
 - [Document DB](/storage/docdb/Index.md)
@@ -75,7 +82,7 @@ Storage
 - Anaytical database
 - Data ware house
 
-dev-tooling
+## dev-tooling
 
 - ide
 - source control
@@ -85,9 +92,9 @@ dev-tooling
 - Productivity
   - [outlook](/devops/productivity/outlook.md)
 
-Project Management issue
+## Project Management issue
 
-Work loads
+## Work loads
 
 - Super Scaled APplication
   - Facebook
