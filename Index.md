@@ -12,13 +12,18 @@
 - SOA
 - [Serviceless](architecture/serverless.md)
 - [Resource](architecture/resouce.md)
-  architecturial-decision
-- [front end](front-end.md)
-- [Decision on hosting](Implementation-Guide/Decisions/hosting.md)
-  data transfer
+  
+ ### Architecturial-decision
+
+- [Front end](front-end.md)
+- Data transfer
 - Data Pipleline ( ETL and ELT)
 - batch and stream processing
--
+- [Hosting Decisions](/hosting/Decision-Guide/hosting.md)
+
+## Application Cross Cutting
+- [Error Handling](/Application//Error-Handling.md)
+- [Api Version](/Application/api-versioning.md)
 
 ## Integration
 
@@ -32,6 +37,9 @@
 - [K8](/hosting/kubernetes/)
 - [docker](/hosting/docker)
 - [networking](/hosting//networking/index.md)
+  
+### Hosting Decisions
+ - [Hosting Decisions](/hosting/Decision-Guide/hosting.md)
 
 ## Data-Engineering
  - [Folder Content](/data-engineering/)
@@ -72,7 +80,7 @@
   Security
 - Certs
 
-## observability and perf
+## Observability and perf
 
 ## Storage
 
@@ -84,13 +92,35 @@
 
 ## dev-tooling
 
-- ide
-- source control
-- package-manager
-- os-tip-and-tricks
-- utility script
-- Productivity
-  - [outlook](/devops/productivity/outlook.md)
+- [ide](/dev-tooling/ide/)
+- [source control](/dev-tooling/source-control/)
+
+### package-manager
+
+- [winget](/dev-tooling/package-manager/winget.md)
+- [npm](/dev-tooling/package-manager/npm.md)
+- [nuget](/dev-tooling/package-manager/nuget.md)
+- [nvm](/dev-tooling/package-manager/nvm.md)
+- [pip](/dev-tooling/package-manager/pip.md)
+
+### Utility tools and plugins
+
+- [Powershell and cmd](/dev-tooling/utitity-tools/ps-cmd-tools.md)
+- [Win Terminals](/dev-tooling/utitity-tools/win-terminals.md)
+
+
+### Utility script
+
+- [SQL](/dev-tooling/utility-scripts/Sql/)
+- [PS](/dev-tooling/utility-scripts//LocalPsScript/)
+
+### Productivity
+
+- [ms-office tips](/dev-tooling/productivity/ms-office-tips.md)
+- [windows-tips](/dev-tooling/productivity/windows-tips.md)
+
+### Dev machine setup
+- []
 
 ## Project Management issue
 

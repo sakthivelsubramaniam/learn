@@ -1,6 +1,11 @@
-Currently in preview version
+# winget
+
+
 
 ```
+
+
+winget show --id CoreyButler.NVMforWindows
 winget show --id CoreyButler.NVMforWindows
 
 ```

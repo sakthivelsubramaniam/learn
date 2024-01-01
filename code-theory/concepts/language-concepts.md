@@ -19,6 +19,20 @@ C# Generics
 
 A generator is a routine that can be used to control the iteration behavior of a loop. All generators are also iterators.[1] A generator is very similar to a function that returns an array, in that a generator has parameters, can be called, and generates a sequence of values. However, instead of building an array containing all the values and returning them all at once, a generator yields the values one at a time, which requires less memory and allows the caller to get started processing the first few values immediately. In short, a generator looks like a function but behaves like an iterator.
 
+
+## Primary Constructors
+
+``` C#
+
+public class NamedItem(string name)
+{
+
+  public string Name => name;
+
+}
+```
+Parameters to the constructors are scoped in the entire body of the declaring type. They can initialize the property or fields. They can also be used as variable in method or fields and they be be passed to base constructors.
+
 ## Null Operators
 
 ### Null-coalescing operator
