@@ -2,7 +2,6 @@
 
 ## Limits and consideration
 
-|---|--|---|
 |Plan |Default |Maximum |
 |---|--|---|
 |Consumption plan|5|10|

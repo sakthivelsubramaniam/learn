@@ -1,13 +1,38 @@
-# Azure Monitor- 
-  azure monitor combines legacy azure monitor, app insight and log analytics.
-	- Log data engine and query language now refers to Azure Monitor logs
-  - 
+# Azure Monitor
+
+azure monitor combines legacy azure monitor, app insight and log analytics.
+
+- Log data engine and query language now refers to Azure Monitor logs.
   
 ## App Insights
- - host diagnostics like perf conunter, az diagnostics, docker logs
- - app logs
+
+- host diagnostics like perf counter, az diagnostics, docker logs
+- app logs
+
+## Azure Monitor Metric
+
+  Stores numeric data from the azure resource to time series database. 
+
+## Azure Monitor logs
+
+  Collects logs and performance data.
+
+## Metric Explorer
+
+  Used to explorer the metric
+
+## Log Analytics
+
+  Analyze the data from Log metrics.
+
+## Activity logs
+
+  Tacks the operation of each azure resources. for example creating a new resource.
+  
+
 
 ###  Collects
+
 - install the sdk to the application.
 - uses instrumentation id to send the data to the azure monitor.
 - keep track of Request rates, response time, failure rates.
